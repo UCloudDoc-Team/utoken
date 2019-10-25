@@ -1,4 +1,4 @@
-{{indexmenu_n>0}}
+
 
 # UCloud令牌服务 UToken
 
@@ -10,4 +10,4 @@ UCloud令牌服务 UToken
 
 **目录** 
 
-{{indexmenu>:management_monitor:utoken#1 | nsort dsort msort}}
+
