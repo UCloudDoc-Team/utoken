@@ -1,13 +1,11 @@
-
-
-\======= 查看用户组 ========
+# 查看用户组
 
 | URL  | <https://api.ucloud.cn?Action=GetUTokenClient> |
 | ---- | ---------------------------------------------- |
 | 请求方式 | POST                                           |
 | 参数格式 | JSON                                           |
 
-\*\* 请求参数 \*\*
+## 请求参数
 
 | 字段名       | 类型     | 是否必选 | 描述                                                               |
 | --------- | ------ | ---- | ---------------------------------------------------------------- |
@@ -15,7 +13,7 @@
 | PublicKey | string | 是    | UCloud账号公钥                                                       |
 | Signature | string | 是    | 签名，生成方式参考UCloud文档 <https://docs.ucloud.cn/api/summary/signature> |
 
-\*\* 返回结果 \*\*
+## 返回结果
 
 | 字段名       | 类型     | 描述                                                        |
 | --------- | ------ | --------------------------------------------------------- |
@@ -24,7 +22,7 @@
 | Timestamp | int    | 结果返回时间（unix时间戳）                                           |
 | Result    | array  | 查询结果列表                                                    |
 
-\*\* 单个查询结果（类型：object） \*\*
+## 单个查询结果（类型：object）
 
 | 字段名           | 类型     | 描述                   |
 | ------------- | ------ | -------------------- |
@@ -37,7 +35,7 @@
 | CreateTime    | int    | 用户组创建时间              |
 | ModifyTime    | int    | 用户组信息最后修改时间          |
 
-\*\* 请求示例 \*\*
+## 请求示例
 
 ``` 
 curl -X POST https://api.ucloud.cn/?Action=GetUTokenClient -d '
@@ -49,7 +47,7 @@ curl -X POST https://api.ucloud.cn/?Action=GetUTokenClient -d '
 
 ```
 
-\*\* 返回示例 \*\*
+## 返回示例
 
     {
       "RetCode": 0,

@@ -1,9 +1,7 @@
-
-
 # 更新用户组信息
 
-\*\* sdk使用之前需要先修改配置文件，参考[](/management_monitor/utoken/sdk/prerequisites)
-\*\*
+## 修改配置
+sdk使用之前需要先修改配置文件，参考[环境准备](/management_monitor/utoken/sdk/prerequisites)
 
 **例：** 更新用户组信息：
 
@@ -12,7 +10,7 @@
 3.  新业务组： test
 4.  自定义描述： test2
 
-\*\* 请求示例 \*\*
+## 请求示例
 
 ``` 
 python utoken-tool.py  --cmd=update_client  \
@@ -22,7 +20,7 @@ python utoken-tool.py  --cmd=update_client  \
                   --description=test2   
 ```
 
-\*\* 返回示例 \*\*
+## 返回示例
 
     (200, {
             u'Message': u'ok', 
