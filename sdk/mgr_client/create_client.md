@@ -1,9 +1,9 @@
-
-
 # 创建用户组
 
-\*\* sdk使用之前需要先修改配置文件，参考[](utoken/sdk/prerequisites)
-\*\*
+
+## 修改配置
+sdk使用之前需要先修改配置文件，参考[环境准备](/utoken/sdk/prerequisites)
+
 
 **例：** 创建用户组：
 
@@ -11,7 +11,7 @@
 2.  业务组： default
 3.  自定义描述： test
 
-\*\* 请求示例 \*\*
+## 请求示例
 
 ``` 
 python utoken-tool.py  --cmd=create_client \
@@ -20,7 +20,7 @@ python utoken-tool.py  --cmd=create_client \
                   --description=test   
 ```
 
-\*\* 返回示例 \*\*
+## 返回示例
 
     (200, {
             u'Message': u'ok', 

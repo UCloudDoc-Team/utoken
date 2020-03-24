@@ -1,13 +1,11 @@
-
-
-\======== 创建令牌 ========
+# 创建令牌
 
 | URL  | <https://api.ucloud.cn?Action=CreateUTokenToken> |
 | ---- | ------------------------------------------------ |
 | 请求方式 | POST                                             |
 | 参数格式 | JSON                                             |
 
-\*\* 请求参数： \*\*
+## 请求参数：
 
 | 字段名          | 类型     | 是否必选 | 描述                                                              |
 | ------------ | ------ | ---- | --------------------------------------------------------------- |
@@ -20,7 +18,7 @@
 | PublicKey    | string | 是    | UCloud账号公钥                                                      |
 | Signature    | string | 是    | 签名，生成方式见UCloud文档 <https://docs.ucloud.cn/api/summary/signature> |
 
-\*\* 返回结果： \*\*
+## 返回结果：
 
 | 字段名       | 类型     | 描述                                                        |
 | --------- | ------ | --------------------------------------------------------- |
@@ -32,9 +30,9 @@
 | BeginTime | int    | 令牌有效期始(unix时间戳)                                           |
 | EndTime   | int    | 令牌有效期止(unix时间戳)                                           |
 
-\*\* \*注：令牌查询结果中的Token被隐藏为 \*。第一次创建token时须记住。 \*\*
+**注**：令牌查询结果中的Token被隐藏为 \*。第一次创建token时须记住。
 
-\*\* 请求示例 \*\*
+## 请求示例
 
 ``` 
 curl -X POST https://api.ucloud.cn/?Action=CreateUTokenToken -d '
@@ -51,7 +49,7 @@ curl -X POST https://api.ucloud.cn/?Action=CreateUTokenToken -d '
 
 ```
 
-\*\* 返回示例 \*\*
+## 返回示例
 
     {
       "RetCode": 0,
