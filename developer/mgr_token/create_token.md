@@ -24,7 +24,7 @@
 
 | 字段名       | 类型     | 描述                                                        |
 | --------- | ------ | --------------------------------------------------------- |
-| RetCode   | int    | 错误码，参考 [](/management_monitor/utoken/developer/errorcode) |
+| RetCode   | int    | 错误码，参考 [](utoken/developer/errorcode) |
 | Message   | string | 错误信息                                                      |
 | Timestamp | int    | 结果返回时间(unix时间戳)                                           |
 | TokenID   | int    | 令牌ID                                                      |

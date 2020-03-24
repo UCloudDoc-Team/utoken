@@ -2,7 +2,7 @@
 
 ## 更新令牌续期方式
 
-\*\* sdk使用之前需要先修改配置文件，参考[](/management_monitor/utoken/sdk/prerequisites)
+\*\* sdk使用之前需要先修改配置文件，参考[](utoken/sdk/prerequisites)
 \*\*
 
 **例：** 更新令牌续期方式：
