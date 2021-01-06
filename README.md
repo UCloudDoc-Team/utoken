@@ -3,7 +3,7 @@
 
 
 * 产品简介
-    * [什么是UCloud令牌服务。](/utoken/intro/whatutokenis)
+    * [什么是UCloud令牌服务](/utoken/intro/whatutokenis)
 * 操作指南
     * 管理用户组 
         * [创建用户组](/utoken/operation/mgr_client/create_client) 
