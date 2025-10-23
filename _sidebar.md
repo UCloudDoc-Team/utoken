@@ -36,7 +36,7 @@
         * [创建令牌](/utoken/sdk/mgr_token/create_token)
         * [更新令牌续期方式](/utoken/sdk/mgr_token/update_token)
         * [查看令牌](/utoken/sdk/mgr_token/get_token)
-* [FAQ](/utoken/fa)
+* [FAQ](/utoken/faq)
 
 
 
